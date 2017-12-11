@@ -41,6 +41,15 @@ h1, h2, h3, h4, h5, h6 {
   background-position: 30%;
   background-image: url(../assets/photos/hand.jpg); }
 
+.app-card {
+  float: left;
+  transition: transform .5s;
+  border: none; }
+  .app-card:hover {
+    box-shadow: 0 8px 17px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.15);
+    transform: scale3d(1.02, 1.02, 1);
+    filter: brightness(110%); }
+
 @media (min-width: 768px) {
   .app-welcome-overlay {
     position: absolute;
