@@ -1,0 +1,52 @@
+body {
+  background-color: white;
+  font-family: 'Roboto', sans-serif; }
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: 'Roboto', sans-serif; }
+
+.app-navbar {
+  position: absolute;
+  display: block;
+  left: 50%;
+  z-index: 100;
+  top: 30%; }
+
+.app-welcome-overlay {
+  bottom: 0;
+  left: 0;
+  right: 0;
+  position: absolute; }
+
+.app-slider-overlay {
+  top: 0;
+  position: absolute; }
+
+.app-tile {
+  background-size: cover;
+  height: 200px;
+  background-position: top; }
+
+.app-tile-1 {
+  background-image: url(../assets/photos/close-1.jpeg); }
+
+.app-tile-2 {
+  background-image: url(../assets/photos/flower.jpg); }
+
+.app-tile-3 {
+  background-color: #222222;
+  vertical-align: bottom; }
+
+.app-tile-4 {
+  background-position: 30%;
+  background-image: url(../assets/photos/hand.jpg); }
+
+@media (min-width: 768px) {
+  .app-welcome-overlay {
+    position: absolute;
+    top: 60%;
+    right: 0;
+    bottom: auto;
+    left: auto; } }
+
+/*# sourceMappingURL=styles.css.map */
