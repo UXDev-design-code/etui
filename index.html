@@ -4,7 +4,9 @@
 <head>
     <meta charset="utf-8">
 
-    <title>jingle</title>
+    <title>
+        etui
+    </title>
 
     <!-- UIkit sources -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/uikit/3.0.0-beta.35/css/uikit.min.css"/>
@@ -17,6 +19,14 @@
     <link href="https://fonts.googleapis.com/css?family=Roboto:100" rel="stylesheet">
 
     <link rel="stylesheet" href="css/styles.css">
+
+    <!-- Favicons -->
+    <link rel="apple-touch-icon" sizes="180x180" href="./assets/graphics/favicons/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="./assets/graphics/favicons/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="./assets/graphics/favicons/favicon-16x16.png">
+    <link rel="manifest" href="/manifest.json">
+    <link rel="mask-icon" href="/safari-pinned-tab.svg" color="#5bbad5">
+    <meta name="theme-color" content="#ffffff">
 </head>
 
 <body>
@@ -31,7 +41,7 @@
             <div class="uk-navbar-center-left">
                 <div>
                     <ul class="uk-navbar-nav">
-                        <li class="uk-active"><a href="#">Story</a></li>
+                        <li class=""><a href="#target" uk-scroll>Story</a></li>
                         <li>
                             <a href="#">iPhone</a>
                             <div class="uk-navbar-dropdown">
@@ -45,7 +55,9 @@
                     </ul>
                 </div>
             </div>
-            <a class="uk-navbar-item uk-logo" href="#">Ethui</a>
+            <a class="uk-navbar-item uk-logo" href="#">
+                <img src="./assets/graphics/logo-white.png" alt="" width="50px">
+            </a>
             <div class="uk-navbar-center-right">
                 <div>
                     <ul class="uk-navbar-nav">
@@ -61,7 +73,7 @@
         <p class="">high-quality & unique iPhone cases</p>
     </div>
 </div>
-<div class="uk-container">
+<div id="target" class="uk-container">
     <div class="uk-grid-small uk-child-width-expand@s uk-margin-xlarge-top" uk-grid>
         <div>
             <img src="./assets/photos/iphone-back-2.png" alt="">
@@ -170,27 +182,37 @@
 
     </div>
     <div class="uk-container uk-margin-large-top">
-        <div class="uk-margin-top">
-            <h2 class="uk-heading-line"><span>The power of 3</span></h2>
-            <p class="uk-text-lead">The secret of Ethui lies in its structure - three magical layers that will protect
-                and
-                style your
-                iPhone.</p>
-        </div>
+
         <div class=" uk-child-width-1-1 uk-grid-large" uk-grid>
             <div class="uk-margin-large-left uk-margin-large-right uk-padding-large"
                  style="">
                 <img src="./assets/graphics/project.png" alt="">
             </div>
         </div>
+        <div class="uk-margin-top uk-margin-bottom">
+            <h2 class="uk-heading-line"><span>The power of 3</span></h2>
+            <h3 class="">The secret of Ethui lies in its structure - three magical layers that will protect
+                and
+                style your
+                iPhone.</h3>
+            <p class="">
+                Our specialists have ensured the full security of your phone, creating a 3-layer protection, starting
+                from the most fragile part - the screen. Tempered glass with a unique structure, for the first time not
+                only protects against scratches, but also a cracking of the screen. The degree of hS + hardness allows
+                for such an extreme use of the screen for the first time without affecting its appearance.
+
+
+            </p>
+
+        </div>
 
     </div>
 </div>
 
-<div class="" style="background-color: #151515;">
+<div class="" >
 
     <div class="uk-container">
-        <div class="uk-position-relative uk-visible-toggle uk-light"
+        <div class="uk-position-relative uk-visible-toggle uk-dark"
              uk-slideshow="autoplay: true; animation: fade; autoplay-interval: 5000">
 
             <ul class="uk-slideshow-items">
@@ -241,21 +263,35 @@
         </div>
     </div>
 </div>
-
-
-<div class="uk-cover-container uk-height-large uk-margin-xlarge-top">
-    <img src="./assets/photos/water.jpg" alt="" uk-cover>
+<div class="uk-container uk-margin-large">
+    <p class="uk-text-lead">
+        The basic protection of your phone is provided by hardcase - a unique method of forming molecules of
+        plastic ensures maximum durability with minimal weight for your comfort every day. What's more - taking
+        care of the environment, we ensure that the raw materials used in production are 100% recycled.
+    </p>
+    <p class="uk-text-lead">
+        Finally - for full protection against scratches and to give your phone a unique style, we took care of
+        the scratch-resistant layer, additionally enriched with a unique design.
+    </p>
 </div>
 
-<div class="footer">
-    <div class="photo-links">
-        <a href='https://www.freepik.com/free-vector/elegant-iphone-with-abstract-background_1415375.htm'>Designed by
-            Freepik</a>
-        <a href='https://www.freepik.com/free-vector/modern-mobile-with-abstract-background_1415371.htm'>Designed by
-            Freepik</a>
-        <a href='https://www.freepik.com/free-photo/texture-of-a-wave-in-the-water_993221.htm'>Designed by Freepik</a>
-        <div>
 
+<!--<div class="uk-cover-container uk-height-large uk-margin-xlarge-top">-->
+<!--<img src="./assets/photos/water.jpg" alt="" uk-cover>-->
+<!--</div>-->
+
+<div class="uk-container"
+     style="background-color: #151515; max-width: none;">
+    <div class="uk-padding-large uk-light" uk-grid>
+        <div>About project</div>
+        <a href="https://github.com/gdakaska/ethui" uk-icon="icon: github; ratio: 1.2"></a>
+        <a href=https://www.linkedin.com/in/katarzyna-malec-2728a7118/" uk-icon="icon: linkedin; ratio: 1.2"></a>
+        <div class="">
+            <a href='https://www.freepik.com/free-vector/elegant-iphone-with-abstract-background_1415375.htm'>Some of the graphics were designed
+                by Freepik</a>
+            <div>
+
+            </div>
         </div>
     </div>
 </div>
