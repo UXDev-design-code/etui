@@ -7,6 +7,8 @@ h1, h2, h3, h4, h5, h6 {
   font-family: 'Roboto', sans-serif;
 }
 
+
+// Navigation
 .app-navbar {
   position: absolute;
   display: block;
@@ -15,15 +17,11 @@ h1, h2, h3, h4, h5, h6 {
   top: 30%;
 }
 
+// Decorators
 .app-welcome-overlay {
   bottom: 0;
   left: 0;
   right: 0;
-  position: absolute;
-}
-
-.app-slider-overlay {
-  top: 0;
   position: absolute;
 }
 
@@ -39,11 +37,9 @@ h1, h2, h3, h4, h5, h6 {
 
 .app-tile-2 {
   background-image: url(../assets/photos/flower.jpg);
-  //background-color: #f7f7f7;
 }
 
 .app-tile-3 {
-  //background-image: url(../assets/photos/);
   background-color: #222222;
   vertical-align: bottom;
 }
@@ -51,9 +47,10 @@ h1, h2, h3, h4, h5, h6 {
 .app-tile-4 {
   background-position: 30%;
   background-image: url(../assets/photos/hand.jpg);
-  //background-color: #a8b2d5;
 }
 
+
+// Card & hover effect
 .app-card {
   float: left;
   transition: transform .5s;
@@ -63,6 +60,18 @@ h1, h2, h3, h4, h5, h6 {
     transform: scale3d(1.02, 1.02, 1);
     filter: brightness(110%);
   }
+}
+
+// Slider
+.app-slider-text {
+  bottom: 40%;
+  top: auto;
+}
+
+// Footer
+.app-footer {
+  background-color: #151515;
+  max-width: none;
 }
 
 @media (min-width: 768px) {
